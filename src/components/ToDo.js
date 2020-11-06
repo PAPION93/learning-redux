@@ -7,7 +7,7 @@ function ToDo({ text, onBtnClick, id }) {
   console.log("ToDo");
   return (
     <li>
-      <Link to={`/${id}`}>{text}</Link>
+      <Link to={`/${id}`}> {text} </Link>
       <button onClick={onBtnClick}>DEL</button>
     </li>
   );
